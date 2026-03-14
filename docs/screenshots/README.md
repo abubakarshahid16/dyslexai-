@@ -1,8 +1,20 @@
 # Screenshots
 
-Capture screenshots for the README and FYP submission.
+Screenshots for the README and FYP submission.
 
-## Capture Steps
+## Automated Capture (Recommended)
+
+1. Run the app: `.\scripts\run-simple.ps1`
+2. Wait for backend (8000) and frontend (5173) to be ready
+3. From project root:
+   ```powershell
+   cd frontend
+   npm run screenshots
+   ```
+   (If `node` is not in PATH, add `.\tools\node-v24.11.0-win-x64` first.)
+4. Screenshots are saved to `docs/screenshots/`
+
+## Manual Capture
 
 1. Run the app: `.\scripts\run-simple.ps1`
 2. Open http://localhost:5173
@@ -22,5 +34,3 @@ Capture screenshots for the README and FYP submission.
 - 09-game-mode.png
 - 10-students.png
 - 11-settings.png
-
-Save PNGs in this folder, then reference them in the main README.

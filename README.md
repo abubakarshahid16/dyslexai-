@@ -6,6 +6,10 @@ DyslexAI is a **web app** that combines a research-backed handwriting OCR pipeli
 
 **Status:** DEMO READY — suitable for FYP submission and portfolio.
 
+<p align="center">
+  <img src="docs/screenshots/04-dashboard.png" alt="DyslexAI Dashboard" width="900"/>
+</p>
+
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-18-61dafb.svg)](https://reactjs.org)
@@ -22,6 +26,53 @@ DyslexAI is a **web app** that combines a research-backed handwriting OCR pipeli
 | **Student dashboard** | Track progress, history, and word mastery |
 | **Tracing canvas** | On-screen letter/word tracing with stroke capture |
 | **Offline-first** | Runs locally; no cloud dependency for OCR |
+
+---
+
+## Screenshots
+
+### Landing & Auth
+
+![Landing](docs/screenshots/01-landing.png)
+*Landing page — Get Started and Log in*
+
+![Login](docs/screenshots/02-login.png)
+*Login page*
+
+![Signup](docs/screenshots/03-signup.png)
+*Sign up page*
+
+### Main App
+
+![Dashboard](docs/screenshots/04-dashboard.png)
+*Dashboard — metrics, chart, recent OCR history*
+
+![Workspace](docs/screenshots/05-workspace-upload.png)
+*Workspace — upload handwriting for OCR*
+
+![OCR UI](docs/screenshots/06-ocr-result.png)
+*OCR processing studio — raw/corrected text, correction layers*
+
+![History](docs/screenshots/07-history.png)
+*History — review and audit OCR runs*
+
+### Exercises & Management
+
+![Exercises](docs/screenshots/08-exercises.png)
+*Exercises — typing, handwriting, tracing*
+
+![Game Mode](docs/screenshots/09-game-mode.png)
+*Game mode — gamified exercises*
+
+![Students](docs/screenshots/10-students.png)
+*Students — manage learners*
+
+![Settings](docs/screenshots/11-settings.png)
+*Settings — user preferences*
+
+---
+
+*To recapture: run the app (`.\scripts\run-simple.ps1`), then `cd frontend && npm run screenshots`*
 
 ---
 
@@ -194,18 +245,6 @@ python scripts/auth_proof.py
 # Unit tests
 pytest
 ```
-
----
-
-## Screenshots
-
-| Page | Description |
-|------|-------------|
-| Dashboard | Metrics, chart, recent OCR history |
-| Workspace | Upload image, OCR, raw/corrected/layers view |
-| Exercises | Student picker, typing/handwriting/tracing |
-
-Capture instructions: [frontend/final-demo-screenshots/README.md](frontend/final-demo-screenshots/README.md) | Save to [docs/screenshots/](docs/screenshots/)
 
 ---
 
