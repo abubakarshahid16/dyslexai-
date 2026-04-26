@@ -6,6 +6,10 @@ DyslexAI is a web application that combines a handwriting OCR pipeline with an a
 
 **Status:** Demo-ready and suitable for FYP presentation and portfolio use.
 
+## Live Showcase
+
+- GitHub Pages product showcase: <https://abubakarshahid16.github.io/dyslexai/>
+
 <p align="center">
   <img src="docs/screenshots/04-dashboard.png" alt="DyslexAI Dashboard" width="900"/>
 </p>

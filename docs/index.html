@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DyslexAI Showcase</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f4f7fb; color: #1d2a3a; }
+    .hero {
+      background: linear-gradient(135deg, #0f172a, #1d4ed8);
+      color: white;
+      padding: 74px 24px 54px;
+      text-align: center;
+    }
+    .hero h1 { margin: 0 0 14px; font-size: 48px; }
+    .hero p { max-width: 920px; margin: 0 auto 26px; font-size: 18px; line-height: 1.65; color: #dbeafe; }
+    .cta { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .btn { display: inline-block; text-decoration: none; padding: 14px 22px; border-radius: 999px; font-weight: 700; }
+    .btn-primary { background: #93c5fd; color: #102033; }
+    .btn-secondary { background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2); }
+    .container { max-width: 1180px; margin: 0 auto; padding: 32px 24px 64px; }
+    .section { background: white; border-radius: 24px; padding: 28px; box-shadow: 0 14px 32px rgba(20,32,52,0.08); margin-bottom: 26px; }
+    .section h2 { margin-top: 0; font-size: 30px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
+    .card { background: #f8fbff; border: 1px solid #e5edf7; border-radius: 18px; overflow: hidden; }
+    .card img { width: 100%; display: block; }
+    .card .copy { padding: 18px; }
+    .card h3 { margin: 0 0 10px; font-size: 24px; }
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 18px; }
+    .stat { background: #f8fbff; border: 1px solid #e5edf7; border-radius: 16px; padding: 18px; }
+    .stat strong { display: block; font-size: 26px; margin-bottom: 8px; color: #1d4ed8; }
+    .list { padding-left: 18px; line-height: 1.7; }
+    @media (max-width: 900px) {
+      .grid, .stats { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 38px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>DyslexAI</h1>
+    <p>A full-stack accessibility-focused learning platform that combines handwriting OCR, correction pipelines, and adaptive exercises for dyslexic learners. The project emphasizes practical AI, student workflows, and local-first design.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="screenshots/04-dashboard.png">Open Dashboard Screenshot</a>
+      <a class="btn btn-secondary" href="https://github.com/abubakarshahid16/dyslexai">View Repository</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Why It Stands Out</h2>
+      <div class="stats">
+        <div class="stat"><strong>OCR</strong>DocTR and TrOCR pipeline for handwritten text extraction</div>
+        <div class="stat"><strong>Correction</strong>Cleanup and repair flow for noisy OCR output</div>
+        <div class="stat"><strong>Adaptive UX</strong>Typing, handwriting, tracing, and student progress views</div>
+        <div class="stat"><strong>Accessibility</strong>Applied AI for a real learning support use case</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Product Screens</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="screenshots/04-dashboard.png" alt="DyslexAI dashboard">
+          <div class="copy">
+            <h3>Student Dashboard</h3>
+            <p>The dashboard gives learners and educators a clear view of OCR history, progress signals, and activity metrics.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="screenshots/05-workspace-upload.png" alt="OCR workspace">
+          <div class="copy">
+            <h3>OCR Workspace</h3>
+            <p>The workspace supports uploading handwriting samples and moving them through the OCR and correction pipeline.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="screenshots/06-ocr-result.png" alt="OCR result">
+          <div class="copy">
+            <h3>Correction Flow</h3>
+            <p>OCR output is reviewed and cleaned so the downstream exercise system can work with more reliable text.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="screenshots/08-exercises.png" alt="Exercises">
+          <div class="copy">
+            <h3>Adaptive Exercises</h3>
+            <p>The app turns extracted text into practice modes tailored for dyslexic learners, including game-like flows.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>What This Project Demonstrates</h2>
+      <ul class="list">
+        <li>Applied AI for accessibility and education</li>
+        <li>Full-stack product thinking with real user-facing workflows</li>
+        <li>OCR pipeline design and post-processing logic</li>
+        <li>Evidence-driven portfolio presentation with real screenshots</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
