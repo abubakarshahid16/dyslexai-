@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/hero-banner.svg" alt="DyslexAI hero banner" width="100%" />
+</p>
+
 # DyslexAI
 
 **Local-first OCR and adaptive exercises for dyslexic students.**
@@ -84,6 +88,10 @@ npm run screenshots
 - Backend: FastAPI, SQLAlchemy, Uvicorn
 - OCR: DocTR, TrOCR, ByT5, optional Groq LLM
 - Database: SQLite by default, PostgreSQL optional
+
+## Architecture Snapshot
+
+![Architecture snapshot](docs/architecture-overview.svg)
 
 ## Architecture Summary
 
